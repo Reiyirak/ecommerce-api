@@ -8,12 +8,12 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Connect To DB
 
-- [] get connection string
-- [] setup .env with MONGO_URL variable and assign the value
-- [] import 'dotenv' and setup package
-- [] import connect() and invoke in the starter
-- [] restart the server
-- [] mongoose V6 info
+- [X] get connection string
+- [X] setup .env with MONGO_URL variable and assign the value
+- [X] import 'dotenv' and setup package
+- [X] import connect() and invoke in the starter
+- [X] restart the server
+- [X] mongoose V6 info
 
 ## Basic Routes and Middleware
 
