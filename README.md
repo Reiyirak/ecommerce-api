@@ -17,10 +17,10 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Basic Routes and Middleware
 
-- [] setup / GET Route
-- [] setup express.json() middleware
-- [] setup 404 and errorHandler middleware
-- [] import 'exress-async-errors' package
+- [X] setup / GET Route
+- [X] setup express.json() middleware
+- [X] setup 404 and errorHandler middleware
+- [X] import 'exress-async-errors' package
 
 ## 404 vs ErrorHandler Middleware
 
