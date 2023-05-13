@@ -1,17 +1,23 @@
-const express = require('express');
 require('dotenv').config();
-require('express-async-errors')
+require('express-async-errors');
 
-const app = express();
 const port = process.env.PORT || 5000;
+
+// Express
+const express = require('express');
+const app = express();
+
+// Rest of packages
+const morgan = require('morgan');
 
 // Database
 const connectDB = require('./db/connect');
 
 // Middleware
-const notFoundMiddleware = require('./middleware/not-found')
-const errorHandlerMiddleware = require('./middleware/error-handler')
+const notFoundMiddleware = require('./middleware/not-found');
+const errorHandlerMiddleware = require('./middleware/error-handler');
 
+app.use(morgan('tiny'));
 app.use(express.json());
 
 app.get('/', (req, res) => {
