@@ -30,9 +30,9 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## User Model
 
-- [] create models folder and User.js file
-- [] create schema with name,email, password (all type:String)
-- [] export mongoose model
+- [X] create models folder and User.js file
+- [X] create schema with name,email, password (all type:String)
+- [X] export mongoose model
 
 ## Validator Package
 
