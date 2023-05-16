@@ -40,17 +40,17 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Auth Routes Structure
 
-- [] create controllers folder
-- [] add authController file
-- [] export (register,login,logout) functions
-- [] res.send('some string value')
-- [] create routes folder
-- [] setup authRoutes file
-- [] import all controllers
-- [] setup three routes
-- [] post('/register') post('/login') get('/logout')
-- [] import authRoutes as authRouter in the app.js
-- [] setup app.use('/api/v1/auth', authRouter)
+- [X] create controllers folder
+- [X] add authController file
+- [X] export (register,login,logout) functions
+- [X] res.send('some string value')
+- [X] create routes folder
+- [X] setup authRoutes file
+- [X] import all controllers
+- [X] setup three routes
+- [X] post('/register') post('/login') get('/logout')
+- [X] import authRoutes as authRouter in the app.js
+- [X] setup app.use('/api/v1/auth', authRouter)
 
 ## Test Routes in Postman
 
