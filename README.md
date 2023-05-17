@@ -59,8 +59,8 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 - [X] create user
 - [X] send response with entire user (only while testing)
 - [X] check if email already in use (schema and controller)
-- [] ignore 'role'
-- [] alternative 'admin' setup
+- [X] ignore 'role'
+- [X] alternative 'admin' setup
 
 ## Handle Password
 
