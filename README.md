@@ -58,16 +58,16 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 - [X] create user
 - [X] send response with entire user (only while testing)
-- [] check if email already in use (schema and controller)
+- [X] check if email already in use (schema and controller)
 - [] ignore 'role'
 - [] alternative 'admin' setup
 
 ## Handle Password
 
 - [] UserSchema.pre('save') - hook
-- this points to User
-- bcrypt.genSalt - number of rounds
-- bcrypt.hash
+- [] this points to User
+- [] bcrypt.genSalt - number of rounds
+- [] bcrypt.hash
 
 ## JWT
 
