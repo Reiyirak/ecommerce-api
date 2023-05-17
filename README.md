@@ -71,12 +71,12 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## JWT
 
-- [] require 'jsonwebtoken' package
-- [] create jwt - jwt.sign(payload,secret,options)
-- [] verify jwt - jwt.verify(token,secret)
-- [] add variables in .env JWT_SECRET=jwtSecret and JWT_LIFETIME=1d
-- [] restart the server !!!!
-- [] refactor code, create jwt functions in utils
+- [X] require 'jsonwebtoken' package
+- [X] create jwt - jwt.sign(payload,secret,options)
+- [X] verify jwt - jwt.verify(token,secret)
+- [X] add variables in .env JWT_SECRET=jwtSecret and JWT_LIFETIME=1d
+- [X] restart the server !!!!
+- [X] refactor code, create jwt functions in utils
 - [] refactor cookie code
 - [] setup func attachCookiesToResponse
 - [] accept payload(res, tokenUser)
