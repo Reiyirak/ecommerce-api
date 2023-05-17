@@ -64,10 +64,10 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Handle Password
 
-- [] UserSchema.pre('save') - hook
-- [] this points to User
-- [] bcrypt.genSalt - number of rounds
-- [] bcrypt.hash
+- [X] UserSchema.pre('save') - hook
+- [X] this points to User
+- [X] bcrypt.genSalt - number of rounds
+- [X] bcrypt.hash
 
 ## JWT
 
