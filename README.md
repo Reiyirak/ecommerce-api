@@ -109,9 +109,9 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## GetAllUsers and GetSingleUser
 
-- [] Get all users where role is 'user' and remove password
-- [] Get Single User where id matches id param and remove password
-- [] If no user 404
+- [X] Get all users where role is 'user' and remove password
+- [X] Get Single User where id matches id param and remove password
+- [X] If no user 404
 
 ## Authenticate User Setup
 
