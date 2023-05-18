@@ -93,19 +93,19 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Logout Route
 
-- [] set token cookie equal to some string value
-- [] set expires:new Date(Date.now())
+- [X] set token cookie equal to some string value
+- [X] set expires:new Date(Date.now())
 
 ## User Routes Structure
 
-- [] add userController file
-- [] export (getAllUsers,getSingleUser,showCurrentUser,updateUser,updateUserPassword) functions
-- [] res.send('some string value')
-- [] setup userRoutes file
-- [] import all controllers
-- [] setup just one route - router.route('/').get(getAllUsers);
-- [] import userRoutes as userRouter in the app.js
-- [] setup app.use('/api/v1/users', userRouter)
+- [X] add userController file
+- [X] export (getAllUsers,getSingleUser,showCurrentUser,updateUser,updateUserPassword) functions
+- [X] res.send('some string value')
+- [X] setup userRoutes file
+- [X] import all controllers
+- [X] setup just one route - router.route('/').get(getAllUsers);
+- [X] import userRoutes as userRouter in the app.js
+- [X] setup app.use('/api/v1/users', userRouter)
 
 ## GetAllUsers and GetSingleUser
 

@@ -1,4 +1,5 @@
 const jwt = require("jsonwebtoken");
+require("dotenv").config();
 const { StatusCodes } = require("http-status-codes");
 
 const createJWT = ({ payload }) => {
