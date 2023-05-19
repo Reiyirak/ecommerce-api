@@ -163,22 +163,22 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Product Model
 
-- [] create Product.js in models folder
-- [] create Schema
-- [] name : {type:String}
-- [] price: {type:Number}
-- [] description: {type:String}
-- [] image: {type:String}
-- [] category: {type:String}
-- [] company: {type:String}
-- [] colors: {type:[]}
-- [] featured: {type:Boolean}
-- [] freeShipping: {type:Boolean}
-- [] inventory:{type:Number}
-- [] averageRating:{type:Number}
-- [] user
-- [] set timestamps
-- [] export Product model
+- [X] create Product.js in models folder
+- [X] create Schema
+- [X] name : {type:String}
+- [X] price: {type:Number}
+- [X] description: {type:String}
+- [X] image: {type:String}
+- [X] category: {type:String}
+- [X] company: {type:String}
+- [X] colors: {type:[]}
+- [X] featured: {type:Boolean}
+- [X] freeShipping: {type:Boolean}
+- [X] inventory:{type:Number}
+- [X] averageRating:{type:Number}
+- [X] user
+- [X] set timestamps
+- [X] export Product model
 
 ## Product Structure
 
