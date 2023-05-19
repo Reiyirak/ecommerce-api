@@ -132,15 +132,15 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## UpdateUserPassword
 
-- [] almost identical to login user
-- [] add authenticateUser middleware in the route
-- [] check for oldPassword and newPassword in the body
-- [] if one missing 400
-- [] look for user with req.user.userId
-- [] check if oldPassword matches with user.comparePassword
-- [] if no match 401
-- [] if everything good set user.password equal to newPassword
-- [] await user.save()
+- [X] almost identical to login user
+- [X] add authenticateUser middleware in the route
+- [X] check for oldPassword and newPassword in the body
+- [X] if one missing 400
+- [X] look for user with req.user.userId
+- [X] check if oldPassword matches with user.comparePassword
+- [X] if no match 401
+- [X] if everything good set user.password equal to newPassword
+- [X] await user.save()
 
 ## createTokenUser in Utils
 
