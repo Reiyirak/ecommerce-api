@@ -144,18 +144,18 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## createTokenUser in Utils
 
-- [] create a file in utils (createTokenUser)
-- [] setup a function that accepts user object and returns userToken object
-- [] export as default
-- [] setup all the correct imports/exports and refactor existing code
+- [X] create a file in utils (createTokenUser)
+- [X] setup a function that accepts user object and returns userToken object
+- [X] export as default
+- [X] setup all the correct imports/exports and refactor existing code
 
 ## updateUser with User.findOneAndUpdate()
 
-- [] add authenticateUser middleware in the route
-- [] check for name and email in the body
-- [] if one is missing, send 400 (optional)
-- [] use findOneAndUpdate()
-- [] create token user, attachCookiesToResponse and send back the tokenUser
+- [X] add authenticateUser middleware in the route
+- [X] check for name and email in the body
+- [X] if one is missing, send 400 (optional)
+- [X] use findOneAndUpdate()
+- [X] create token user, attachCookiesToResponse and send back the tokenUser
 
 ## updateUser with user.save()
 
