@@ -127,8 +127,8 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## ShowCurrentUser
 
-- [] get user from req
-- [] send response with user
+- [X] get user from req
+- [X] send response with user
 
 ## UpdateUserPassword
 
