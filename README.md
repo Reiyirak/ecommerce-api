@@ -123,7 +123,7 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Authorize Permissions Complete
 
-- [] introduce params
+- [X] introduce params
 
 ## ShowCurrentUser
 
