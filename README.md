@@ -182,18 +182,18 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Product Structure
 
-- [] add productController file in controllers
-- [] export (createProduct, getAllProducts,
+- [X] add productController file in controllers
+- [X] export (createProduct, getAllProducts,
   getSingleProduct, updateProduct, deleteProduct, uploadImage) functions
-- [] res.send('function name')
-- [] setup productRoutes file in routes
-- [] import all controllers
-- [] only getAllProducts and getSingleProduct accessible to public
-- [] rest only by admin (setup middlewares)
-- [] typical setup
-- [] router.route('/uploadImage').post(uploadImage)
-- [] import productRoutes as productRouter in the app.js
-- [] setup app.use('/api/v1/products', productRouter)
+- [X] res.send('function name')
+- [X] setup productRoutes file in routes
+- [X] import all controllers
+- [X] only getAllProducts and getSingleProduct accessible to public
+- [X] rest only by admin (setup middlewares)
+- [X] typical setup
+- [X] router.route('/uploadImage').post(uploadImage)
+- [X] import productRoutes as productRouter in the app.js
+- [X] setup app.use('/api/v1/products', productRouter)
 
 ## Product Routes in Postman
 
