@@ -219,15 +219,15 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Review Model
 
-- [] create Review.js in models folder
-- [] create Schema
-- [] rating : {type:Number}
-- [] title: {type:String}
-- [] comment: {type:String}
-- [] user
-- [] product
-- [] set timestamps
-- [] export Review model
+- [X] create Review.js in models folder
+- [X] create Schema
+- [X] rating : {type:Number}
+- [X] title: {type:String}
+- [X] comment: {type:String}
+- [X] user
+- [X] product
+- [X] set timestamps
+- [X] export Review model
 
 ## Review Structure
 
