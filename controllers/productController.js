@@ -47,7 +47,6 @@ const deleteProduct = async (req, res) => {
     throw new CustomErr.NotFoundError(`No product with id: ${productId}`);
   }
 
-  // Error on the next line of code when using postman
   await product.deleteOne();
   res.status(StatusCodes.OK).json({ msg: 'Success! Product Removed!' });
 };

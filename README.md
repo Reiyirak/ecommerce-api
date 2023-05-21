@@ -255,12 +255,12 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Delete Review
 
-- [] get id from req.params
-- [] check if review exists
-- [] if no review, 404
-- [] check permissions (req.user, review.user)
-- [] use await review.remove()
-- [] send back 200
+- [X] get id from req.params
+- [X] check if review exists
+- [X] if no review, 404
+- [X] check permissions (req.user, review.user)
+- [X] use await review.remove()
+- [X] send back 200
 
 ## Update Review
 
