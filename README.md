@@ -244,10 +244,10 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Create Review
 
-- [] check for product in the req.body
-- [] attach user property (set it equal to req.user.userId) on to req.body
-- [] create review
-- [] don't test yet
+- [X] check for product in the req.body
+- [X] attach user property (set it equal to req.user.userId) on to req.body
+- [X] create review
+- [X] don't test yet
 
 ## Get All Reviews and Get Single Review
 
