@@ -231,16 +231,16 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Review Structure
 
-- [] add reviewController file in controllers
-- [] export (createReview, getAllReviews, getSingleReview, updateReview, deleteReview) functions
-- [] res.send('function name')
-- [] setup reviewRoutes file in routes
-- [] import all controllers
-- [] only getAllReviews and getSingleReview accessible to public
-- [] rest only to users (setup middleware)
-- [] typical REST setup
-- [] import reviewRoutes as reviewRouter in the app.js
-- [] setup app.use('/api/v1/reviews', reviewRouter)
+- [X] add reviewController file in controllers
+- [X] export (createReview, getAllReviews, getSingleReview, updateReview, deleteReview) functions
+- [X] res.send('function name')
+- [X] setup reviewRoutes file in routes
+- [X] import all controllers
+- [X] only getAllReviews and getSingleReview accessible to public
+- [X] rest only to users (setup middleware)
+- [X] typical REST setup
+- [X] import reviewRoutes as reviewRouter in the app.js
+- [X] setup app.use('/api/v1/reviews', reviewRouter)
 
 ## Create Review
 
