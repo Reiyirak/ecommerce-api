@@ -251,7 +251,7 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Get All Reviews and Get Single Review
 
-- [] both public routes, typical setup
+- [X] both public routes, typical setup
 
 ## Delete Review
 
