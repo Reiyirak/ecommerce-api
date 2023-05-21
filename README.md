@@ -214,8 +214,8 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Upload Image
 
-- [] if some question, re-watch 07-file-upload
-- [] images folder with two images
+- [X] if some question, re-watch 07-file-upload
+- [X] images folder with two images
 
 ## Review Model
 
