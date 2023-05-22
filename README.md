@@ -341,15 +341,15 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Create Docs
 
-- [] [Docgen Library] (https://github.com/thedevsaddam/docgen)
-- [] Export Postman Collection
-- [] docgen build -i fileName.json -o index.html
-- [] create index.html in public
+- [X] [Docgen Library] (https://github.com/thedevsaddam/docgen)
+- [X] Export Postman Collection
+- [X] docgen build -i fileName.json -o index.html
+- [X] create index.html in public
 
 ## Security Packages
 
-- [] express-rate-limiter
-- [] helmet
-- [] xss-clean
-- [] express-mongo-sanitize
-- [] cors (cookies!!!!)
+- [X] express-rate-limiter
+- [X] helmet
+- [X] xss-clean
+- [X] express-mongo-sanitize
+- [X] cors (cookies!!!!)
