@@ -264,14 +264,14 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Update Review
 
-- [] get id from req.params
-- [] get {rating, title comment} from req.body
-- [] check if review exists
-- [] if no review, 404
-- [] check permissions
-- [] set review properties equal to rating, title, comment
-- [] use await review.save()
-- [] send back 200
+- [X] get id from req.params
+- [X] get {rating, title comment} from req.body
+- [X] check if review exists
+- [X] if no review, 404
+- [X] check permissions
+- [X] set review properties equal to rating, title, comment
+- [X] use await review.save()
+- [X] send back 200
 
 ## Populate
 
