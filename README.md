@@ -322,22 +322,22 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Get All Orders and Get Single Order
 
-- [] getAllOrders - admin only
-- [] getSingleOrder - chechPermissions
+- [X] getAllOrders - admin only
+- [X] getSingleOrder - chechPermissions
 
 ## Get Current User Orders
 
-- [] find orders where user is equal to req.user.userId
+- [X] find orders where user is equal to req.user.userId
 
 ## Update Order
 
-- [] get order id
-- [] get paymentIntentId (req.body)
-- [] get order
-- [] if does not exist - 404
-- [] check permissions
-- [] set paymentIntentId and status as 'paid'
-- [] order.save()
+- [X] get order id
+- [X] get paymentIntentId (req.body)
+- [X] get order
+- [X] if does not exist - 404
+- [X] check permissions
+- [X] set paymentIntentId and status as 'paid'
+- [X] order.save()
 
 ## Create Docs
 
