@@ -285,34 +285,34 @@ This is a ecommerce api that will be used in another repo called cafras, that is
 
 ## Order Schema
 
-- [] create Order.js in models folder
-- [] create Schema
-- [] tax : {type:Number}
-- [] shippingFee: {type:Number}
-- [] subtotal: {type:Number}
-- [] total: {type:Number}
-- [] orderItems:[]
-- [] status:{type:String}
-- [] user
-- [] clientSecret:{type:String}
-- [] paymentId:{type:String}
-- [] set timestamps
-- [] export Order model
+- [X] create Order.js in models folder
+- [X] create Schema
+- [X] tax : {type:Number}
+- [X] shippingFee: {type:Number}
+- [X] subtotal: {type:Number}
+- [X] total: {type:Number}
+- [X] orderItems:[]
+- [X] status:{type:String}
+- [X] user
+- [X] clientSecret:{type:String}
+- [X] paymentId:{type:String}
+- [X] set timestamps
+- [X] export Order model
 
 ## Order Structure
 
-- [] add orderController file in controllers
-- [] export (getAllOrders, getSingleOrder, getCurrentUserOrders,
+- [X] add orderController file in controllers
+- [X] export (getAllOrders, getSingleOrder, getCurrentUserOrders,
   createOrder, updateOrder) functions
-- [] res.send('function name')
-- [] setup orderRoutes file in routes
-- [] import all controllers
-- [] authenticate user in all routes
-- [] getAllOrders admin only
-- [] typical REST setup
-- [] router.route('/showAllMyOrders').get(getCurrentUserOrders)
-- [] import orderRoutes as orderRouter in the app.js
-- [] setup app.use('/api/v1/orders', orderRouter)
+- [X] res.send('function name')
+- [X] setup orderRoutes file in routes
+- [X] import all controllers
+- [X] authenticate user in all routes
+- [X] getAllOrders admin only
+- [X] typical REST setup
+- [X] router.route('/showAllMyOrders').get(getCurrentUserOrders)
+- [X] import orderRoutes as orderRouter in the app.js
+- [X] setup app.use('/api/v1/orders', orderRouter)
 
 ## Order in Postman
 
